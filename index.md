@@ -26,7 +26,7 @@ __2of5__, __CODE 93__ and __CODABAR__. The library is also capable of using
 code relies on heavy image-processing even recent smartphones are capable of
 locating and decoding barcodes in real-time.
 
-Try some [examples](https://serratus.github.io/quaggaJS/examples) and check out
+Try some [examples](http://localhost:4000/examples) and check out
 the blog post ([How barcode-localization works in QuaggaJS][oberhofer_co_how])
 if you want to dive deeper into this topic.
 
@@ -580,7 +580,7 @@ false-positives.
 
 Starting in Chrome 59 you can now make use of `capabilities` and directly
 control the zoom of the camera. Head over to the
-[web-cam demo](https://serratus.github.io/quaggaJS/examples/live_w_locator.html)
+[web-cam demo](http://localhost:4000/examples/live_w_locator.html)
 and check out the __Zoom__ feature.
 
 You can read more about those `capabilities` in
@@ -593,7 +593,7 @@ recognition logic.
 
 Since Chrome 59 you can turn on/off the __Torch__ of our device and vastly
 improve the quality of the images. Head over to the
-[web-cam demo](https://serratus.github.io/quaggaJS/examples/live_w_locator.html)
+[web-cam demo](http://localhost:4000/examples/live_w_locator.html)
 and check out the __Torch__ feature.
 
 To find out more about this feature [read on](https://www.oberhofer.co/mediastreamtrack-and-its-capabilities).
@@ -695,7 +695,7 @@ on the ``singleChannel`` flag in the configuration when using ``decodeSingle``.
       [\#194](https://github.com/serratus/quaggaJS/issues/195))
   - Exposing `Quagga.CameraAccess.getActiveTrack()` to get access to the
       currently used `MediaStreamTrack`
-    - Example can be viewed here: [example/live_w_locator.js](https://github.com/serratus/quaggaJS/blob/master/example/live_w_locator.js) and a [demo](https://serratus.github.io/quaggaJS/examples/live_w_locator.html)
+    - Example can be viewed here: [example/live_w_locator.js](https://github.com/serratus/quaggaJS/blob/master/example/live_w_locator.js) and a [demo](http://localhost:4000/examples/live_w_locator.html)
 
 Take a look at the release-notes (
     [0.12.0](https://github.com/serratus/quaggaJS/releases/tag/v0.12.0))
@@ -895,6 +895,6 @@ introduced to the API.
 [upc_wiki]: http://en.wikipedia.org/wiki/Universal_Product_Code
 [ean_8_wiki]: http://en.wikipedia.org/wiki/EAN-8
 [oberhofer_co_how]: http://www.oberhofer.co/how-barcode-localization-works-in-quaggajs/
-[github_examples]: https://serratus.github.io/quaggaJS/examples
+[github_examples]: http://localhost:4000/examples
 [i2of5_wiki]: https://en.wikipedia.org/wiki/Interleaved_2_of_5
 [enumerateDevices]: https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/enumerateDevices

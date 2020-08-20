@@ -1,6 +1,6 @@
 name: QuaggaJS
 markdown: kramdown
-baseurl: /
+baseurl:
 scheme: http://
 url: localhost
 host: localhost
